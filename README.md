@@ -1,5 +1,7 @@
 # FreeCurrencyConverterDotCom
 
+[![Continous Integration](https://gitlab.com/project-alice-assistant/skills/skill_FreeCurrencyConverterDotCom/badges/master/pipeline.svg)](https://gitlab.com/project-alice-assistant/skills/skill_FreeCurrencyConverterDotCom/pipelines/latest)
+
 ### Download
 
 ##### > WGET method
