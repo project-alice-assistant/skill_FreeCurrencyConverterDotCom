@@ -18,6 +18,7 @@ Let's you convert world currencies
 - Alice minimum Version: 1.0.0-a4
 - Conditions:
   - en
+  - fr
 - Requirements: N/A
 
 
