@@ -8,9 +8,9 @@
 		"Malheureusement, je ne peux pas atteindre les dernières valeurs, veuillez réessayer dans un moment."
 	],
 	"noApiKey": [
-		"Je peux faire cela sans une clef de l'API. Veuillez l'ajouter à ma configuration."
+		"Je ne peux faire cela sans une clef de l'API. Veuillez l'ajouter à ma configuration."
 	],
 	"answer": [
-		"{} {} is {} {}"
+		"{} {} équivaut à {} {}"
 	]
 }
