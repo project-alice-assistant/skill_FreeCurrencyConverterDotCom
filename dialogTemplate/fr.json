@@ -1024,15 +1024,15 @@
 			"description": "Utilisé lorsque l’utilisateur ne doit répondre qu’à une devise. A utiliser avec un filtre d’intention !",
 			"enabledByDefault": false,
 			"utterances": [
-				"en {hungarian forints:=>Currency} s'il te plaît",
-				"en {hungarian forints:=>Currency} s'il vous plaît",
-				"en {hungarian forints:=>Currency} s'il te plait",
-				"en {hungarian forints:=>Currency} s'il vous plait",
-				"en {hungarian forints:=>Currency}",
-				"{hungarian forints:=>Currency} s'il te plaît",
-				"{hungarian forints:=>Currency} s'il vous plaît",
-				"{hungarian forints:=>Currency} s'il te plait",
-				"{hungarian forints:=>Currency} s'il vous plait"
+				"en {forint hongrois:=>Currency} s'il te plaît",
+				"en {forint hongrois:=>Currency} s'il vous plaît",
+				"en {forint hongrois:=>Currency} s'il te plait",
+				"en {forint hongrois:=>Currency} s'il vous plait",
+				"en {forint hongrois:=>Currency}",
+				"{forint hongrois:=>Currency} s'il te plaît",
+				"{forint hongrois:=>Currency} s'il vous plaît",
+				"{forint hongrois:=>Currency} s'il te plait",
+				"{forint hongrois:=>Currency} s'il vous plait"
 			],
 			"slots": [
 				{
