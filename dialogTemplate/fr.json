@@ -1032,7 +1032,7 @@
 				"{hungarian forints:=>Currency} s'il te plaît",
 				"{hungarian forints:=>Currency} s'il vous plaît",
 				"{hungarian forints:=>Currency} s'il te plait",
-				"{hungarian forints:=>Currency} s'il vous plait",
+				"{hungarian forints:=>Currency} s'il vous plait"
 			],
 			"slots": [
 				{
