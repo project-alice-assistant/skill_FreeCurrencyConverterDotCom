@@ -12,10 +12,10 @@ wget http://skills.projectalice.ch/FreeCurrencyConverterDotCom \
 ### Description
 Let's you convert world currencies
 
-- Version: 1.0.31
+- Version: 1.0.32
 - Author: Psychokiller1888
 - Maintainers: maxbachmann
-- Alice minimum Version: 1.0.0-a4
+- Alice minimum Version: 1.0.0-a5
 - Conditions:
   - en
   - fr
