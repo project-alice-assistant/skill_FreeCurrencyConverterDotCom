@@ -44,7 +44,7 @@ class FreeCurrencyConverterDotCom(AliceSkill):
 			return
 
 		if not self._apiKey:
-			self.log.warning(msg="please create a api key at https://www.currencyconverterapi.com/ and add it to the skill config")
+			selflogWarning(msg="please create a api key at https://www.currencyconverterapi.com/ and add it to the skill config")
 			self.endDialog(session.sessionId, text=self.randomTalk('noApiKey'))
 			return
 
