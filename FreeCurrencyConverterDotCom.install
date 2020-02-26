@@ -1,7 +1,7 @@
 {
 	"name": "FreeCurrencyConverterDotCom",
 	"version": "1.0.33",
-	"icon": "battle-net",
+	"icon": "fab fa-battle-net",
 	"author": "Psychokiller1888",
 	"maintainers": ["maxbachmann"],
 	"desc": "Let's you convert world currencies",
