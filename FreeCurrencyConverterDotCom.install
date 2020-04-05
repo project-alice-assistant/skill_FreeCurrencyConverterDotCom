@@ -1,10 +1,13 @@
 {
 	"name": "FreeCurrencyConverterDotCom",
-	"version": "1.0.34",
+	"version": "1.0.35",
 	"icon": "fab fa-battle-net",
 	"category": "assistance",
 	"author": "Psychokiller1888",
-	"maintainers": ["maxbachmann"],
+	"maintainers": [
+		"maxbachmann",
+		"Fe3lApAcUt"
+		],
 	"desc": "Let's you convert world currencies",
 	"aliceMinVersion": "1.0.0-a5",
 	"systemRequirements": [],
@@ -12,7 +15,8 @@
 	"conditions": {
 		"lang": [
 			"en",
-			"fr"
+			"fr",
+			"de"
 		],
 		"online": true
 	}

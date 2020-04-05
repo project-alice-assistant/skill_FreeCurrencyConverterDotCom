@@ -6,8 +6,11 @@
 Let's you convert world currencies
 
 - Author: Psychokiller1888
-- Maintainers: maxbachmann
+- Maintainers:
+  - maxbachmann
+  - Fe3lApAcUt
 - Alice minimum Version: 1.0.0-a5
 - Languages:
   - en
   - fr
+  - de
