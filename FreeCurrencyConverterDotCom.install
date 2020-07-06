@@ -1,12 +1,13 @@
 {
 	"name": "FreeCurrencyConverterDotCom",
-	"version": "1.0.35",
-	"icon": "fab fa-battle-net",
-	"category": "assistance",
+	"version": "1.0.36",
+	"icon": "fas fa-comments-dollar",
+	"category": "information",
 	"author": "Psychokiller1888",
 	"maintainers": [
 		"maxbachmann",
-		"Fe3lApAcUt"
+		"Fe3lApAcUt",
+		"philipp2310"
 		],
 	"desc": "Let's you convert world currencies",
 	"aliceMinVersion": "1.0.0-a5",

@@ -1,3 +1,6 @@
 {
-	"apiKey": ""
+	"apiKey": "",
+	"dataType": "string",
+	"isSensitive": true,
+	"description": "Your api key"
 }
