@@ -12,5 +12,8 @@
 	],
 	"answer": [
 		"{} {} ist {} {}"
+	],
+	"noConversionExists": [
+		"Entschuldigung, ich kenne keinen aktuellen Umrechungskurs von {} nach {}."
 	]
 }

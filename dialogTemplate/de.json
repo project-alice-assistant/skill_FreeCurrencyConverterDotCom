@@ -24,7 +24,8 @@
 				{
 					"value": "EGP",
 					"synonyms": [
-						"Egypt Pound"
+						"Egypt Pound",
+						"Ägyptische Pfund"
 					]
 				},
 				{
@@ -72,7 +73,9 @@
 				{
 					"value": "JPY",
 					"synonyms": [
-						"Japan Yen"
+						"Japan Yen",
+						"japanische yen",
+						"yen"
 					]
 				},
 				{
@@ -96,7 +99,8 @@
 				{
 					"value": "TND",
 					"synonyms": [
-						"Tunisia Dinar"
+						"Tunisia Dinar",
+						"tunesische Dinar"
 					]
 				},
 				{
@@ -121,7 +125,8 @@
 					"value": "EUR",
 					"synonyms": [
 						"Euro",
-						"euros"
+						"euros",
+						"€"
 					]
 				},
 				{
@@ -133,7 +138,8 @@
 				{
 					"value": "CDF",
 					"synonyms": [
-						"Congo/Kinshasa Franc"
+						"Congo/Kinshasa Franc",
+						"Congo Franc"
 					]
 				},
 				{
@@ -145,13 +151,16 @@
 				{
 					"value": "ILS",
 					"synonyms": [
-						"Israel Shekel"
+						"Israel Shekel",
+						"Israelische shekel",
+						"Shekel"
 					]
 				},
 				{
 					"value": "NOK",
 					"synonyms": [
-						"Norway Krone"
+						"Norway Krone",
+						"norwegische Kronen"
 					]
 				},
 				{
@@ -176,7 +185,8 @@
 					"value": "AUD",
 					"synonyms": [
 						"Australia Dollar",
-						"australian dollars"
+						"australian dollars",
+						"australische Dollar"
 					]
 				},
 				{
@@ -190,7 +200,8 @@
 					"synonyms": [
 						"Denmark Krone",
 						"danish krone",
-						"danish money"
+						"danish money",
+						"dänische kronen"
 					]
 				},
 				{
@@ -202,13 +213,16 @@
 				{
 					"value": "IDR",
 					"synonyms": [
-						"Indonesia Rupiah"
+						"Indonesia Rupiah",
+						"Indonesische Rupie",
+						"Indonesische Rupien"
 					]
 				},
 				{
 					"value": "CUP",
 					"synonyms": [
-						"Cuba Peso"
+						"Cuba Peso",
+						"Cubanische Peso"
 					]
 				},
 				{
@@ -244,7 +258,8 @@
 				{
 					"value": "TTD",
 					"synonyms": [
-						"Trinidad and Tobago Dollar"
+						"Trinidad and Tobago Dollar",
+						"Trinidad und Tobago Dollar"
 					]
 				},
 				{
@@ -263,7 +278,8 @@
 					"value": "NZD",
 					"synonyms": [
 						"new zealand dollar",
-						"new zealand dollars"
+						"new zealand dollars",
+						"neu seeland Dollar"
 					]
 				},
 				{
@@ -293,7 +309,8 @@
 				{
 					"value": "THB",
 					"synonyms": [
-						"Thailand Baht"
+						"Thailand Baht",
+						"thailändischen Baht"
 					]
 				},
 				{
@@ -321,7 +338,8 @@
 						"us dollar",
 						"united states dollar",
 						"us dollars",
-						"united states dollars"
+						"united states dollars",
+						"$"
 					]
 				},
 				{
@@ -329,7 +347,8 @@
 					"synonyms": [
 						"China Yuan Renminbi",
 						"chinese yuan",
-						"yuan"
+						"yuan",
+						"chinesische yuan"
 					]
 				},
 				{
@@ -341,13 +360,15 @@
 				{
 					"value": "DZD",
 					"synonyms": [
-						"Algeria Dinar"
+						"Algeria Dinar",
+						"Algerische Dinar"
 					]
 				},
 				{
 					"value": "PHP",
 					"synonyms": [
-						"Philippines Piso"
+						"Philippines Piso",
+						"Philippinische Piso"
 					]
 				},
 				{
@@ -379,19 +400,23 @@
 					"value": "ARS",
 					"synonyms": [
 						"Argentina Peso",
-						"argentina pesos"
+						"argentina pesos",
+						"argentinische pesos",
+						"argentinische pesos"
 					]
 				},
 				{
 					"value": "FKP",
 					"synonyms": [
-						"Falkland Islands Pound"
+						"Falkland Islands Pound",
+						"Falkland Pfund"
 					]
 				},
 				{
 					"value": "TWD",
 					"synonyms": [
-						"Taiwan New Dollar"
+						"Taiwan New Dollar",
+						"Taiwan Dollar"
 					]
 				},
 				{
@@ -403,13 +428,15 @@
 				{
 					"value": "GIP",
 					"synonyms": [
-						"Gibraltar Pound"
+						"Gibraltar Pound",
+						"Gibraltar Pfund"
 					]
 				},
 				{
 					"value": "INR",
 					"synonyms": [
-						"India Rupee"
+						"India Rupee",
+						"indische Rupee"
 					]
 				},
 				{
@@ -437,7 +464,8 @@
 						"swiss franc",
 						"swiss francs",
 						"switzerland francs",
-						"Schweizer Franken"
+						"Schweizer Franken",
+						"franken"
 					]
 				},
 				{
@@ -467,7 +495,8 @@
 				{
 					"value": "IMP",
 					"synonyms": [
-						"Isle of Man Pound"
+						"Isle of Man Pound",
+						"Isle of Man Pfund"
 					]
 				},
 				{
@@ -475,19 +504,22 @@
 					"synonyms": [
 						"Hungary Forint",
 						"hungarian forints",
-						"hungarian money"
+						"hungarian money",
+						"Ungarische Forint"
 					]
 				},
 				{
 					"value": "SLL",
 					"synonyms": [
-						"Sierra Leone Leone"
+						"Sierra Leone Leone",
+						"Leone"
 					]
 				},
 				{
 					"value": "RSD",
 					"synonyms": [
-						"Serbia Dinar"
+						"Serbia Dinar",
+						"serbische Dinar"
 					]
 				},
 				{
@@ -505,7 +537,8 @@
 				{
 					"value": "BYN",
 					"synonyms": [
-						"Belarus Ruble"
+						"Belarus Ruble",
+						"Weissrussische Rubel"
 					]
 				},
 				{

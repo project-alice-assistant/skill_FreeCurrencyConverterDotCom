@@ -121,7 +121,8 @@
 					"value": "EUR",
 					"synonyms": [
 						"Euro",
-						"euros"
+						"euros",
+						"€"
 					]
 				},
 				{
@@ -321,7 +322,8 @@
 						"us dollar",
 						"united states dollar",
 						"us dollars",
-						"united states dollars"
+						"united states dollars",
+						"$"
 					]
 				},
 				{

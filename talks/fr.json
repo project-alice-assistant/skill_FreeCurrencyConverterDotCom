@@ -12,5 +12,9 @@
 	],
 	"answer": [
 		"{} {} équivaut à {} {}"
+	],
+	"noConversionExists": [
+		"Désolée, je ne connais pas le taux de change actuel entre {} et {}."
 	]
 }
+

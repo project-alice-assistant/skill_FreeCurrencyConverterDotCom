@@ -23,13 +23,14 @@ class FreeCurrencyConverterDotCom(AliceSkill):
 	@AnyExcept(exceptions=(RequestException, KeyError), text='noServer', printStack=True)
 	@Online
 	def convertCurrencyIntent(self, session: DialogSession):
-		amount = session.slots.get('Amount', session.customData.get('Amount', 1))
+		self._apiKey = self.getConfig('apiKey')
+		amount = session.slotValue('Amount', defaultValue=1)
+		toCurrency = session.slotValue('ToCurrency', defaultValue=session.customData.get('toCurrency',self.ConfigManager.getAliceConfigByName('baseCurrency')))
+		toCurrencyRAW = session.slots.get('ToCurrency', session.customData.get('toCurrencyRAW',toCurrency))
 
-		toCurrency = session.slots.get('ToCurrency',
-			session.customData.get('toCurrency',
-			self.ConfigManager.getAliceConfigByName('baseCurrency', self.name)))
+		fromCurrency = session.slotValue('FromCurrency', defaultValue=session.slotValue('Currency'))
+		fromCurrencyRAW = session.slots.get('FromCurrency', fromCurrency)
 
-		fromCurrency = session.slots.get('FromCurrency', session.slots.get('Currency'))
 		if not fromCurrency:
 			self.continueDialog(
 				sessionId=session.sessionId,
@@ -38,7 +39,8 @@ class FreeCurrencyConverterDotCom(AliceSkill):
 				customData={
 					'skill'    : self.name,
 					'amount'    : amount,
-					'toCurrency': toCurrency
+					'toCurrency': toCurrency,
+					'toCurrencyRAW': toCurrencyRAW
 				}
 			)
 			return
@@ -48,12 +50,21 @@ class FreeCurrencyConverterDotCom(AliceSkill):
 			self.endDialog(session.sessionId, text=self.randomTalk('noApiKey'))
 			return
 
-		url = f'https://free.currconv.com/api/v7/convert?q={fromCurrency}_{toCurrency}&compact=ultra&apiKey={self._apiKey}'
+		convString = f'{fromCurrency}_{toCurrency}'
+
+		url = f'https://free.currconv.com/api/v7/convert?q={convString}&compact=ultra&apiKey={self._apiKey}'
+
 		response = requests.get(url=url)
-		response.raise_for_status()
+		if not response:
+			raise Exception(response.json()['error'])
+
 		data = response.json()
 
-		conversion = data[f'{fromCurrency}_{toCurrency}']
+		if convString not in data:
+			self.endDialog(session.sessionId, text=self.randomTalk('noConversionExists').format(fromCurrencyRAW, toCurrencyRAW))
+			return
+
+		conversion = data[convString]
 		converted = round(float(amount) * float(conversion), 2)
 
-		self.endDialog(session.sessionId, text=self.randomTalk('answer').format(amount, fromCurrency, converted, toCurrency))
+		self.endDialog(session.sessionId, text=self.randomTalk('answer').format(amount, fromCurrencyRAW, converted, toCurrencyRAW))

@@ -12,5 +12,8 @@
 	],
 	"answer": [
 		"{} {} is {} {}"
+	],
+	"noConversionExists": [
+		"Sorry, I don't know the current exchange rate from {} to {}."
 	]
 }
