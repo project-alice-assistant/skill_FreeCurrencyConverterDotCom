@@ -1,7 +1,5 @@
 {
 	"skill": "FreeCurrencyConverterDotCom",
-	"icon": "calculator",
-	"description": "Rechnet Währungen der ganzen Welt um",
 	"slotTypes": [
 		{
 			"name": "Currency",
@@ -1054,7 +1052,6 @@
 	"intents": [
 		{
 			"name": "AnswerCurrency",
-			"description": "Used when the user needs to answer only a currency. To be used with an intent filter!",
 			"enabledByDefault": false,
 			"utterances": [
 				"zu {hungarian forints:=>Currency} bitte",
@@ -1074,7 +1071,6 @@
 		},
 		{
 			"name": "ConvertCurrency",
-			"description": "Ask to convert any currency to any other in the world",
 			"enabledByDefault": true,
 			"utterances": [
 				"Was ist {5972:=>Amount} {IDR:=>FromCurrency} in {INR:=>ToCurrency} bitte",

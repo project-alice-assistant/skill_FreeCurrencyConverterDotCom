@@ -1,7 +1,5 @@
 {
 	"skill": "FreeCurrencyConverterDotCom",
-	"icon": "calculator",
-	"description": "L’utilisateur convertit les devises du monde",
 	"slotTypes": [
 		{
 			"name": "Currency",
@@ -1023,7 +1021,6 @@
 	"intents": [
 		{
 			"name": "AnswerCurrency",
-			"description": "Utilisé lorsque l’utilisateur ne doit répondre qu’à une devise. A utiliser avec un filtre d’intention !",
 			"enabledByDefault": false,
 			"utterances": [
 				"en {forint hongrois:=>Currency} s'il te plaît",
@@ -1048,7 +1045,6 @@
 		},
 		{
 			"name": "ConvertCurrency",
-			"description": "Demander de convertir n'importe quelle devise en n'importe quelle autre du monde",
 			"enabledByDefault": true,
 			"utterances": [
 				"combien fait {5972:=>Amount} {IDR:=>FromCurrency} en {INR:=>ToCurrency}",
