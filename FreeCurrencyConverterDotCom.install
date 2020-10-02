@@ -1,24 +1,24 @@
 {
-	"name": "FreeCurrencyConverterDotCom",
-	"version": "1.0.38",
-	"icon": "fas fa-comments-dollar",
-	"category": "information",
-	"author": "Psychokiller1888",
-	"maintainers": [
-		"maxbachmann",
-		"Fe3lApAcUt",
-		"philipp2310"
-		],
-	"desc": "Let's you convert world currencies",
-	"aliceMinVersion": "1.0.0-a5",
-	"systemRequirements": [],
-	"pipRequirements": [],
-	"conditions": {
-		"lang": [
-			"en",
-			"fr",
-			"de"
-		],
-		"online": true
-	}
+    "name": "FreeCurrencyConverterDotCom",
+    "version": "1.0.39",
+    "icon": "fas fa-comments-dollar",
+    "category": "information",
+    "author": "Psychokiller1888",
+    "maintainers": [
+        "maxbachmann",
+        "Fe3lApAcUt",
+        "philipp2310"
+    ],
+    "desc": "Let's you convert world currencies",
+    "aliceMinVersion": "1.0.0-a5",
+    "systemRequirements": [],
+    "pipRequirements": [],
+    "conditions": {
+        "lang": [
+            "en",
+            "fr",
+            "de"
+        ],
+        "online": true
+    }
 }
