@@ -1030,7 +1030,6 @@
 			"slots": [
 				{
 					"name": "Currency",
-					"description": null,
 					"required": false,
 					"type": "Currency",
 					"missingQuestion": ""
@@ -1052,21 +1051,18 @@
 			"slots": [
 				{
 					"name": "ToCurrency",
-					"description": null,
 					"required": false,
 					"type": "Currency",
 					"missingQuestion": ""
 				},
 				{
 					"name": "FromCurrency",
-					"description": null,
 					"required": false,
 					"type": "Currency",
 					"missingQuestion": ""
 				},
 				{
 					"name": "Amount",
-					"description": null,
 					"required": false,
 					"type": "snips/number",
 					"missingQuestion": ""
