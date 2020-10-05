@@ -19,7 +19,7 @@ class FreeCurrencyConverterDotCom(AliceSkill):
 
 
 	@IntentHandler('ConvertCurrency')
-	@IntentHandler('AnswerCurrency', isProtected=True)
+	@IntentHandler('AnswerCurrency')
 	@AnyExcept(exceptions=(RequestException, KeyError), text='noServer', printStack=True)
 	@Online
 	def convertCurrencyIntent(self, session: DialogSession):
